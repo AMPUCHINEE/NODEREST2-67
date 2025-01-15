@@ -1,0 +1,20 @@
+{
+  "name": "noderest2-67",
+  "version": "1.0.0",
+  "description": "Back-End",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "formet": "prettier --write *.js"
+  },
+  "keywords": [],
+  "author": "Ampuchinee Yodthaisong",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
