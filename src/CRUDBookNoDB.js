@@ -34,7 +34,7 @@ app.get('/books/:id',(req,res) => {
 
 app.post('/books',(req,res) => {
     const book = {
-        id: books.length + 1,
+        id: book.lenght +1,
         title: req.body.title,
         author: req.body.author
     };
@@ -51,7 +51,7 @@ app.put('/books/:id',(req,res) => {
 });
 
 app.delete('/books/:id',(req,res) => {
-    const book = books.find(b => b.id === parseInt(req.params.id));
+    const book = books.find(b = b.id === parseInt(req.params.id));
     if (!book) res.status(404).send('Book not found');
     const index = books.indexOf(book);
     books.splice(index,1);
