@@ -65,7 +65,7 @@ app.delete('/books/:id', async (req, res) => {
   res.send(result);
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-  });
+
+app.listen(3000, () => {
+  console.log('API server is listening on port 3000');
+});
